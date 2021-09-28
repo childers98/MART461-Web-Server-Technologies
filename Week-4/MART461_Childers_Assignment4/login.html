@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <body>
+        <form action="login.php" method="POST"> <!--changed processlogin.php to login.php-->
+        <table>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td>
+                    <input type="text" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input type="text" name="hiddenKey">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone Number:
+                </td>
+                <td>
+                    <input type="text" name="phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Security Question:
+                </td>
+                <td>
+                    <input type="text" name="securityQuestion">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
